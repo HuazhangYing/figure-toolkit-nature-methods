@@ -21,27 +21,25 @@ The toolkit automatically exports each figure in three formats:
 - **SVG**: Editable vector graphics for manual refinement.
 - **PNG**: High-resolution (300 dpi) images for preview and sharing.
 
-Figures can be further modified through two workflows:
-
-**Option A: Adobe Illustrator / Inkscape (SVG Editing)**  
-Open the exported SVG file to manually refine typography, colors, labels, legends, and panel layouts. Vector elements remain editable, allowing precise adjustments without loss of image quality.
-
-- Tips: Editing SVG in Adobe Illustrator
-
-Matplotlib exports SVG files with multiple nested `<g>` groups for axes, ticks, text, and data points. In Adobe Illustrator, these nested groups may require repeatedly double-clicking to enter isolation mode when editing text. You can select all objects with `Cmd + A`, then use **Object → Ungroup** (`Shift + Cmd + G`). You can then use the **Type Tool (T)** to edit text directly.
-
-**Option B: Codex / Python (Source Code Editing)**  
-Modify the original plotting code to update data, statistical analyses, axis settings, plot types, or other visualization parameters. Re-run the script to regenerate all three output formats reproducibly.
-
-**Recommended workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility.
-
 ### Example Output
 
 The following figure demonstrates the toolkit's publication-style output using simulated data.
 
 ![Simulated assay validation figure](./example/exports/Fig1_assay_validation_SIMULATED.svg)
 
-[View editable SVG](./example/exports/Fig1_assay_validation_SIMULATED.svg)
+![Simulated assay validation figure2](./example/exports/Fig2_proteomic_response_SIMULATED.svg)
+
+Figures can be further modified through two workflows:
+
+**Option A: Adobe Illustrator / Inkscape (SVG Editing)**  
+Open the exported SVG file to manually refine typography, colors, labels, legends, and panel layouts. Vector elements remain editable, allowing precise adjustments without loss of image quality.
+
+- Tips: Editing SVG in Adobe Illustrator. Matplotlib exports SVG files with multiple nested `<g>` groups for axes, ticks, text, and data points. In Adobe Illustrator, these nested groups may require repeatedly double-clicking to enter isolation mode when editing text. You can select all objects with `Cmd + A`, then use **Object → Ungroup** (`Shift + Cmd + G`). You can then use the **Type Tool (T)** to edit text directly.
+
+**Option B: Codex / Python (Source Code Editing)**  
+Modify the original plotting code to update data, statistical analyses, axis settings, plot types, or other visualization parameters. Re-run the script to regenerate all three output formats reproducibly.
+
+**Recommended workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility.
 
 ### Quick Start
 
