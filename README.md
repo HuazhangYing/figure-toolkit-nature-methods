@@ -20,9 +20,7 @@ The following figure demonstrates the toolkit's publication-style output using s
 
 ![Simulated assay validation figure2](./example/exports/Fig2_proteomic_response_SIMULATED.svg)
 
-**Recommended Subsequent workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility.
-
-Figures can be further modified through two workflows:
+**Recommended Subsequent workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility. Figures can be further modified through two workflows.
 
 **Option A: Adobe Illustrator / Inkscape (SVG Editing)**  
 Open the exported SVG file to manually refine typography, colors, labels, legends, and panel layouts. Vector elements remain editable, allowing precise adjustments without loss of image quality.
