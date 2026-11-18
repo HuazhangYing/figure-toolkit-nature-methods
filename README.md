@@ -4,15 +4,6 @@ A reproducible scientific figure toolkit for generating publication-quality stat
 
 Designed around the official Nature Methods and Nature Research figure preparation guidelines.
 
-### Features
-
-- **Publication-ready styling:** Consistent typography, dimensions, accessible colors, and panel layouts.
-- **Editable vector outputs:** PDF and SVG with embedded fonts and editable labels, alongside PNG previews.
-- **Reproducible figures:** Source code, plotted data, statistical metadata, and provenance records.
-- **Multi-panel assembly:** Consistent layouts and panel labeling for complete manuscript figures.
-- **Automated quality control:** Checks for physical dimensions, font embedding, SVG text editability, and file integrity.
-- **Codex integration:** Repository-level instructions through `AGENTS.md`.
-
 ### Figure Outputs and Editing
 
 The toolkit automatically exports each figure in three formats:
@@ -29,6 +20,8 @@ The following figure demonstrates the toolkit's publication-style output using s
 
 ![Simulated assay validation figure2](./example/exports/Fig2_proteomic_response_SIMULATED.svg)
 
+**Recommended Subsequent workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility.
+
 Figures can be further modified through two workflows:
 
 **Option A: Adobe Illustrator / Inkscape (SVG Editing)**  
@@ -39,7 +32,14 @@ Open the exported SVG file to manually refine typography, colors, labels, legend
 **Option B: Codex / Python (Source Code Editing)**  
 Modify the original plotting code to update data, statistical analyses, axis settings, plot types, or other visualization parameters. Re-run the script to regenerate all three output formats reproducibly.
 
-**Recommended workflow:** Use Codex/Python for data-driven changes and Adobe Illustrator/Inkscape for final visual refinement. Preserve the source code and editable SVG alongside the final PDF to ensure reproducibility and flexibility.
+### Features
+
+- **Publication-ready styling:** Consistent typography, dimensions, accessible colors, and panel layouts.
+- **Editable vector outputs:** PDF and SVG with embedded fonts and editable labels, alongside PNG previews.
+- **Reproducible figures:** Source code, plotted data, statistical metadata, and provenance records.
+- **Multi-panel assembly:** Consistent layouts and panel labeling for complete manuscript figures.
+- **Automated quality control:** Checks for physical dimensions, font embedding, SVG text editability, and file integrity.
+- **Codex integration:** Repository-level instructions through `AGENTS.md`.
 
 ### Quick Start
 
