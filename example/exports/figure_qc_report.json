@@ -1,0 +1,105 @@
+{
+  "profile": "Nature Methods",
+  "max_width_mm": 180.0,
+  "max_height_mm": 170.0,
+  "files_checked": 6,
+  "results": [
+    {
+      "file": "exports/Fig1_assay_validation_SIMULATED.pdf",
+      "format": "pdf",
+      "checks": [
+        "PDF page dimensions read."
+      ],
+      "warnings": [
+        "Poppler pdffonts unavailable; font embedding was not checked."
+      ],
+      "errors": [],
+      "dimensions_mm": {
+        "width": 180.0,
+        "height": 126.0
+      },
+      "size_mb": 0.04
+    },
+    {
+      "file": "exports/Fig1_assay_validation_SIMULATED.svg",
+      "format": "svg",
+      "checks": [
+        "SVG root element found.",
+        "101 editable SVG text element(s) detected."
+      ],
+      "warnings": [],
+      "errors": [],
+      "text_elements": 101,
+      "size_mb": 0.07
+    },
+    {
+      "file": "exports/Fig1_assay_validation_SIMULATED_preview.png",
+      "format": "png",
+      "checks": [
+        "PNG DPI metadata found."
+      ],
+      "warnings": [
+        "PNG is a preview format in this toolkit, not the preferred Nature Methods main-figure upload."
+      ],
+      "errors": [],
+      "pixel_size": {
+        "width": 3188,
+        "height": 2232
+      },
+      "dpi": [
+        450.0,
+        450.0
+      ],
+      "size_mb": 0.45
+    },
+    {
+      "file": "exports/Fig2_proteomic_response_SIMULATED.pdf",
+      "format": "pdf",
+      "checks": [
+        "PDF page dimensions read."
+      ],
+      "warnings": [
+        "Poppler pdffonts unavailable; font embedding was not checked."
+      ],
+      "errors": [],
+      "dimensions_mm": {
+        "width": 180.0,
+        "height": 132.0
+      },
+      "size_mb": 0.04
+    },
+    {
+      "file": "exports/Fig2_proteomic_response_SIMULATED.svg",
+      "format": "svg",
+      "checks": [
+        "SVG root element found.",
+        "92 editable SVG text element(s) detected."
+      ],
+      "warnings": [],
+      "errors": [],
+      "text_elements": 92,
+      "size_mb": 0.09
+    },
+    {
+      "file": "exports/Fig2_proteomic_response_SIMULATED_preview.png",
+      "format": "png",
+      "checks": [
+        "PNG DPI metadata found."
+      ],
+      "warnings": [
+        "PNG is a preview format in this toolkit, not the preferred Nature Methods main-figure upload."
+      ],
+      "errors": [],
+      "pixel_size": {
+        "width": 3188,
+        "height": 2338
+      },
+      "dpi": [
+        450.0,
+        450.0
+      ],
+      "size_mb": 0.31
+    }
+  ],
+  "scope_limit": "Technical checks only; statistical correctness and scientific integrity require human review."
+}

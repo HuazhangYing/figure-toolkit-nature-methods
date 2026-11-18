@@ -1,0 +1,115 @@
+{
+  "nature_methods": {
+    "name": "Nature Methods",
+    "verified_on": "2026-11-17",
+    "official_sources": {
+      "nature_methods_formatting": "https://www.nature.com/nmeth/submission-guidelines/aip-and-formatting",
+      "nature_figure_specs": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "nature_figure_export": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "springer_nature_ai_policy": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+    },
+    "dimensions_mm": {
+      "single_column_width": 89,
+      "double_column_width_profile_ceiling": 180,
+      "general_nature_guide_double_column_width": 183,
+      "max_height": 170
+    },
+    "typography_pt": {
+      "regular_text_min": 5,
+      "regular_text_max": 7,
+      "axis_label_default": 6.5,
+      "tick_label_default": 5.5,
+      "legend_default": 5.5,
+      "annotation_default": 5.5,
+      "panel_label": 8
+    },
+    "fonts": {
+      "preferred": [
+        "Arial",
+        "Helvetica"
+      ],
+      "fallbacks_for_nonproduction_preview": [
+        "Liberation Sans",
+        "DejaVu Sans"
+      ],
+      "pdf_fonttype": 42,
+      "ps_fonttype": 42,
+      "svg_fonttype": "none",
+      "text_must_remain_editable": true,
+      "outline_text": false
+    },
+    "colour": {
+      "space": "RGB",
+      "palette": "Okabe-Ito / Wong accessible palette",
+      "avoid": [
+        "red-green-only distinctions",
+        "rainbow colormaps",
+        "coloured text"
+      ]
+    },
+    "resolution_dpi": {
+      "nature_methods_minimum_figure_panels": 300,
+      "photographic_images_minimum": 300,
+      "recommended_embedded_raster_target": 450,
+      "extended_data_maximum": 300
+    },
+    "main_figure": {
+      "preferred_formats": [
+        "PDF",
+        "EPS"
+      ],
+      "editable_working_format": "SVG",
+      "preview_only_formats": [
+        "PNG"
+      ],
+      "avoid_as_complete_main_figure": [
+        "PNG",
+        "JPEG",
+        "TIFF"
+      ],
+      "keep_axes_labels_arrows_scale_bars_vector": true
+    },
+    "extended_data": {
+      "formats": [
+        "JPEG",
+        "TIFF",
+        "EPS"
+      ],
+      "colour_space": "RGB",
+      "max_dpi": 300
+    },
+    "visual_rules": {
+      "show_axis_lines_and_ticks": true,
+      "label_units_where_applicable": true,
+      "avoid_background_gridlines": true,
+      "scale_bars_for_photographic_images": true,
+      "keep_scale_bars_editable": true,
+      "panel_labels": "lowercase, bold, upright"
+    },
+    "notes": [
+      "Nature Methods-specific formatting page gives max width 180 mm, minimum 300 dpi and 5-7 pt sans-serif text.",
+      "The general Nature Research Figure Guide gives 89 mm single-column, 183 mm double-column, maximum height 170 mm, and panel labels 8 pt bold lowercase.",
+      "This profile uses 180 mm as the stricter double-column ceiling to respect the journal-specific page.",
+      "Main-figure PDF is the default. SVG is kept as an editable working copy. PNG is preview-only.",
+      "For raster content embedded in a vector main figure, 300 dpi is the minimum; 450 dpi is the target when source resolution permits.",
+      "Re-check live author instructions before final submission."
+    ],
+    "single_column_width_mm": 89.0,
+    "double_column_width_mm": 180.0,
+    "max_width_mm": 180.0,
+    "max_height_mm": 170.0,
+    "font_candidates": [
+      "Arial",
+      "Helvetica",
+      "Liberation Sans",
+      "DejaVu Sans"
+    ],
+    "font_sizes_pt": {
+      "axis_label": 6.5,
+      "tick_label": 5.5,
+      "legend": 5.5,
+      "annotation": 5.5,
+      "panel_label": 8.0
+    }
+  }
+}

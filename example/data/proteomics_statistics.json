@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "n_donors": 12,
+  "n_proteins": 420,
+  "unit": "paired donor",
+  "test": "two-sided one-sample t-test on donor-specific log2 treated-minus-vehicle differences",
+  "multiple_testing": "Benjamini\u2013Hochberg across all 420 proteins",
+  "selection": "q < 0.05 and |mean log2 fold change| >= 0.5",
+  "volcano_x_limits": [
+    -1.8,
+    1.8
+  ],
+  "protein_counts": {
+    "Not selected": 343,
+    "Decreased": 49,
+    "Increased": 28
+  },
+  "intervals": "pointwise 95% Student t; selected features; not simultaneous or selection-adjusted",
+  "heatmap": "top 16 proteins ranked by q then ID; columns in donor ID order; paired differences, no row scaling or clustering",
+  "ecdf": "donor-level median over all measured proteins; descriptive only; no inference across proteins",
+  "exclusions": 0
+}

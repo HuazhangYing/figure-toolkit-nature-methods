@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.0",
+    "scipy": "1.14.1",
+    "matplotlib": "3.10.5",
+    "Pillow": "10.4.0",
+    "PyMuPDF": "1.27.2.3"
+  },
+  "font": "Arial",
+  "simulation_seed": 41827
+}

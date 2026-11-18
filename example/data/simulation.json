@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "seed": 41827,
+  "n_donors": 12,
+  "n_proteins": 420,
+  "purpose": "publication-style figure demonstration only",
+  "design": "paired donor; technical duplicates in method comparison only",
+  "simulation": "baseline and treatment effects generated from Gaussian distributions; no experimental observations"
+}

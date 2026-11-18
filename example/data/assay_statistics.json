@@ -1,0 +1,29 @@
+{
+  "paired_donors": 12,
+  "unit": "donor; technical duplicates averaged before method comparison",
+  "paired_activity_test": {
+    "method": "two-sided paired t-test; one prespecified comparison",
+    "p": 8.952750958158256e-10,
+    "t": -19.05982196146193,
+    "df": 11
+  },
+  "reduction_percent": {
+    "mean": 64.02417759436726,
+    "ci95": [
+      57.28219238436638,
+      70.76616280436814
+    ],
+    "method": "Student t interval across donor-specific percentage reductions"
+  },
+  "method_comparison": {
+    "pearson_r": 0.9872293277826409,
+    "bias": 5.232740832478601,
+    "limits_of_agreement": [
+      -0.45451954127223093,
+      10.920001206229433
+    ]
+  },
+  "bands": "pointwise 95% t intervals across donors; not simultaneous bands",
+  "excluded_observations": 0,
+  "synthetic": true
+}

@@ -1,0 +1,64 @@
+{
+  "profile": "Nature Methods",
+  "created_utc": "2026-11-18T02:28:36.646299+00:00",
+  "figure_size_mm": {
+    "width": 180.0,
+    "height": 132.0
+  },
+  "resolved_font": [
+    "Arial"
+  ],
+  "outputs": [
+    "exports/Fig2_proteomic_response_SIMULATED.pdf",
+    "exports/Fig2_proteomic_response_SIMULATED.svg",
+    "exports/Fig2_proteomic_response_SIMULATED_preview.png"
+  ],
+  "data_files": [
+    "data/proteomics.csv",
+    "data/protein_statistics.csv"
+  ],
+  "statistics": {
+    "synthetic": true,
+    "n_donors": 12,
+    "n_proteins": 420,
+    "unit": "paired donor",
+    "test": "two-sided one-sample t-test on donor-specific log2 treated-minus-vehicle differences",
+    "multiple_testing": "Benjamini–Hochberg across all 420 proteins",
+    "selection": "q < 0.05 and |mean log2 fold change| >= 0.5",
+    "volcano_x_limits": [
+      -1.8,
+      1.8
+    ],
+    "protein_counts": {
+      "Not selected": 343,
+      "Decreased": 49,
+      "Increased": 28
+    },
+    "intervals": "pointwise 95% Student t; selected features; not simultaneous or selection-adjusted",
+    "heatmap": "top 16 proteins ranked by q then ID; columns in donor ID order; paired differences, no row scaling or clustering",
+    "ecdf": "donor-level median over all measured proteins; descriptive only; no inference across proteins",
+    "exclusions": 0
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "Simulated study; figure-design demonstration, not experimental evidence",
+    "source_code": "src/plot_publication.py",
+    "data_sha256": {
+      "data/proteomics.csv": "875a0fd2c8b46e12b319497e021928971695e6ad2644226e7fa45907f18a7211",
+      "data/protein_statistics.csv": "769b25b3f381af819b4e28e359f064c3832a26c00f8cacad0f319e8afd942afc"
+    },
+    "simulation_seed": 41827,
+    "font_family": "Arial",
+    "captions": "CAPTIONS.md"
+  },
+  "software": {
+    "python": "3.12.12",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "matplotlib": "3.10.5"
+  },
+  "notes": [
+    "PDF is the preferred editable main-figure output.",
+    "SVG is an editable working copy; PNG is a preview only.",
+    "Statistical metadata are supplied by the analyst and are not independently validated."
+  ]
+}

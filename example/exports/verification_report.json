@@ -1,0 +1,48 @@
+[
+  {
+    "file": "Fig1_assay_validation_SIMULATED.pdf",
+    "fonts": [
+      {
+        "name": "CWKGXT+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "CWKGXT+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "dimensions_mm": [
+      179.99999491373697,
+      125.99999643961587
+    ],
+    "data_hashes_valid": true,
+    "text_within_page": true,
+    "minimum_text_pt": 5,
+    "svg_editable_text": true
+  },
+  {
+    "file": "Fig2_proteomic_response_SIMULATED.pdf",
+    "fonts": [
+      {
+        "name": "CWKGXT+ArialMT",
+        "embedded": true
+      },
+      {
+        "name": "CWKGXT+Arial-BoldMT",
+        "embedded": true
+      }
+    ],
+    "dimensions_mm": [
+      179.99999491373697,
+      131.99999627007378
+    ],
+    "data_hashes_valid": true,
+    "text_within_page": true,
+    "minimum_text_pt": 5,
+    "svg_editable_text": true
+  },
+  {
+    "statistics": "paired t, reduction CI, all 420 protein effects, CIs, P values and BH q independently recomputed",
+    "passed": true
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "profile": "Nature Methods",
+  "created_utc": "2026-11-18T02:28:34.739658+00:00",
+  "figure_size_mm": {
+    "width": 180.0,
+    "height": 126.0
+  },
+  "resolved_font": [
+    "Arial"
+  ],
+  "outputs": [
+    "exports/Fig1_assay_validation_SIMULATED.pdf",
+    "exports/Fig1_assay_validation_SIMULATED.svg",
+    "exports/Fig1_assay_validation_SIMULATED_preview.png"
+  ],
+  "data_files": [
+    "data/paired_activity.csv",
+    "data/dose_response.csv",
+    "data/kinetics.csv",
+    "data/method_comparison.csv"
+  ],
+  "statistics": {
+    "paired_donors": 12,
+    "unit": "donor; technical duplicates averaged before method comparison",
+    "paired_activity_test": {
+      "method": "two-sided paired t-test; one prespecified comparison",
+      "p": 8.952750958158256e-10,
+      "t": -19.05982196146193,
+      "df": 11
+    },
+    "reduction_percent": {
+      "mean": 64.02417759436726,
+      "ci95": [
+        57.28219238436638,
+        70.76616280436814
+      ],
+      "method": "Student t interval across donor-specific percentage reductions"
+    },
+    "method_comparison": {
+      "pearson_r": 0.9872293277826409,
+      "bias": 5.232740832478601,
+      "limits_of_agreement": [
+        -0.45451954127223093,
+        10.920001206229433
+      ]
+    },
+    "bands": "pointwise 95% t intervals across donors; not simultaneous bands",
+    "excluded_observations": 0,
+    "synthetic": true
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "Simulated study; figure-design demonstration, not experimental evidence",
+    "source_code": "src/plot_publication.py",
+    "data_sha256": {
+      "data/paired_activity.csv": "2ca2523510aa6bf15ae01c58a4da15f7648d85f0d73614908aed74cd4c9fc585",
+      "data/dose_response.csv": "ea062dab2fc5b2334376ad03c28509a7193e15cc8fb2a86d6c9032b3c410985d",
+      "data/kinetics.csv": "4ed3e30c064fdb041dbabcf95c5ad7bff5dab63e928f1292441c701b9568cfa0",
+      "data/method_comparison.csv": "ef41f87cc0377fe5ff57b6cd7c5f30e9e5a050700fe3fe5b40fdc83a50e1b8ea"
+    },
+    "simulation_seed": 41827,
+    "font_family": "Arial",
+    "captions": "CAPTIONS.md"
+  },
+  "software": {
+    "python": "3.12.12",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "matplotlib": "3.10.5"
+  },
+  "notes": [
+    "PDF is the preferred editable main-figure output.",
+    "SVG is an editable working copy; PNG is a preview only.",
+    "Statistical metadata are supplied by the analyst and are not independently validated."
+  ]
+}
